@@ -1,0 +1,282 @@
+{
+	"questions": [
+        {
+		    "question-id": "p1",
+		    "label": "¿Prefieres la Magia o romper cosas?",
+		    "options": [
+			    {
+                    "option-label": " La Magia",
+                    "conection": "p2"
+                },
+                {
+                    "option-label": "Quiero ambas!!",
+                    "conection": "p3"
+                },
+                {
+                    "option-label": "Yo rompo cosas",
+                    "conection": "p4"
+                }
+		    ]
+        },
+        {
+            "question-id": "p2",
+            "label": "¿Eres religioso",
+            "options":[
+                {
+                    "option-label": "Dios es mi guía",
+                    "conection": "c1"
+                },
+                {
+                    "option-label": "Pues no",
+                    "conection": "p6"
+                }
+            ]
+        },
+        {
+            "question-id": "p3",
+            "label": "¿Estás cómodo entre las personas?",
+            "options":[
+                {
+                    "option-label": "Para nada",
+                    "conection": "p10"
+                },
+                {
+                    "option-label": "Si",
+                    "conection": "p11"
+                }
+            ]
+        },
+        {
+            "question-id": "p4",
+            "label": "¿Prefieres luchar a distancia o cuerpo a cuerpo?",
+            "options":[
+                {
+                    "option-label": "Mejor a distancia",
+                    "conection": "p14"
+                },
+                {
+                    "option-label": "Prefiero de cerca",
+                    "conection": "p16"
+                }
+            ]
+        },
+        {
+            "question-id": "p6",
+            "label": "¿Te gusta estudiar?",
+            "options":[
+                {
+                    "option-label": "No",
+                    "conection": "p7"
+                },
+                {
+                    "option-label": "Si, mucho",
+                    "conection": "p8"
+                }
+            ]
+        },
+        {
+            "question-id": "p7",
+            "label": "¿Naciste con Magia?",
+            "options":[
+                {
+                    "option-label": "No",
+                    "conection": "c2"
+                },
+                {
+                    "option-label": "S1",
+                    "conection": "c3"
+                }
+            ]
+        },
+        {
+            "question-id": "p8",
+            "label": "¿Tienes interés por la música?",
+            "options":[
+                {
+                    "option-label": "Paso de música",
+                    "conection": "p9"
+                },
+                {
+                    "option-label": "Me encanta",
+                    "conection": "c5"
+                }
+            ]
+        },
+        {
+            "question-id": "p9",
+            "label": "¿Te gustan los animales?",
+            "options":[
+                {
+                    "option-label": "Solo los mágicos",
+                    "conection": "c4"
+                },
+                {
+                    "option-label": "Claro, son muy bonitos",
+                    "conection": "c6"
+                }
+            ]
+        },
+        {
+            "question-id": "p10",
+            "label": "¿Te gusta estar con animalitos",
+            "options":[
+                {
+                    "option-label": "Si",
+                    "conection": "c6"
+                },
+                {
+                    "option-label": "Bueno, no están mal",
+                    "conection": "p11"
+                }
+            ]
+        },
+        {
+            "question-id": "p11",
+            "label": "¿Eres furtivo?",
+            "options":[
+                {
+                    "option-label": "No",
+                    "conection": "p12"
+                },
+                {
+                    "option-label": "Si",
+                    "conection": "c7"
+                }
+            ]
+        },
+        {
+            "question-id": "p12",
+            "label": "¿Que prefieres, magia o lucha?",
+            "options":[
+                {
+                    "option-label": "La Magia",
+                    "conection": "c5"
+                },
+                {
+                    "option-label": "Lucha, lucha",
+                    "conection": "p13"
+                }
+            ]
+        },
+        {
+            "question-id": "p13",
+            "label": "¿Quieres ser rico?",
+            "options":[
+                {
+                    "option-label": "Pues claro",
+                    "conection": "c7"
+                },
+                {
+                    "option-label": "Bah",
+                    "conection": "p15"
+                }
+            ]
+        },
+        {
+            "question-id": "p14",
+            "label": "¿Eres social?",
+            "options":[
+                {
+                    "option-label": "Lo soy",
+                    "conection": "p11"
+                },
+                {
+                    "option-label": "No, prefiero a los animales",
+                    "conection": "c8"
+                }
+            ]
+        },
+        {
+            "question-id": "p16",
+            "label": "¿Peleas por una causa?",
+            "options":[
+                {
+                    "option-label": "Si",
+                    "conection": "p15"
+                },
+                {
+                    "option-label": "El dinero es mi causa",
+                    "conection": "p17"
+                }
+            ]
+        },
+        {
+            "question-id": "p15",
+            "label": "¿Sabes artes marciales?",
+            "options":[
+                {
+                    "option-label": "Mis puños son armas letales",
+                    "conection": "c9"
+                },
+                {
+                    "option-label": "No se de que me hablas",
+                    "conection": "c10"
+                }
+            ]
+        },
+        {
+            "question-id": "p17",
+            "label": "¿Eres civil?",
+            "options":[
+                {
+                    "option-label": "Cosmopolito total",
+                    "conection": "c11"
+                },
+                {
+                    "option-label": "No, nací en el campo",
+                    "conection": "c12"
+                }
+            ]
+        }
+	],
+    "characters": [
+        {
+            "character-id": "c1",
+            "character-label": "Clérigo"
+        },
+        {
+            "character-id": "c2",
+            "character-label": "Brujo"
+        },
+        {
+            "character-id": "c3",
+            "character-label": "Hechicero"
+        },
+        {
+            "character-id": "c4",
+            "character-label": "Mago"
+        },
+        {
+            "character-id": "c5",
+            "character-label": "Bardo"
+        },
+        {
+            "character-id": "c6",
+            "character-label": "Druida"
+        },
+        {
+            "character-id": "c7",
+            "character-label": "Pícaro"
+        },
+        {
+            "character-id": "c8",
+            "character-label": "Ranger"
+        },
+        {
+            "character-id": "c9",
+            "character-label": "Monje"
+        },
+        {
+            "character-id": "c10",
+            "character-label": "Paladín"
+        },
+        {
+            "character-id": "c11",
+            "character-label": "Guerrero"
+        },
+        {
+            "character-id": "c120",
+            "character-label": "Bárbaro"
+        }
+    ]
+}
