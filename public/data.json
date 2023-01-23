@@ -1,10 +1,10 @@
-{
+{   
 	"questions": [
         {
-		    "question-id": "p1",
-		    "label": "¿Prefieres la Magia o romper cosas?",
-		    "options": [
-			    {
+            "id": "p1",
+            "label": "¿Prefieres la Magia o romper cosas?",
+            "options": [
+                {
                     "option-label": " La Magia",
                     "conection": "p2"
                 },
@@ -16,12 +16,12 @@
                     "option-label": "Yo rompo cosas",
                     "conection": "p4"
                 }
-		    ]
+            ]
         },
         {
-            "question-id": "p2",
-            "label": "¿Eres religioso",
-            "options":[
+            "id": "p2",
+            "label": "¿Eres religioso?",
+            "options": [
                 {
                     "option-label": "Dios es mi guía",
                     "conection": "c1"
@@ -33,9 +33,9 @@
             ]
         },
         {
-            "question-id": "p3",
+            "id": "p3",
             "label": "¿Estás cómodo entre las personas?",
-            "options":[
+            "options": [
                 {
                     "option-label": "Para nada",
                     "conection": "p10"
@@ -47,9 +47,9 @@
             ]
         },
         {
-            "question-id": "p4",
+            "id": "p4",
             "label": "¿Prefieres luchar a distancia o cuerpo a cuerpo?",
-            "options":[
+            "options": [
                 {
                     "option-label": "Mejor a distancia",
                     "conection": "p14"
@@ -61,9 +61,9 @@
             ]
         },
         {
-            "question-id": "p6",
+            "id": "p6",
             "label": "¿Te gusta estudiar?",
-            "options":[
+            "options": [
                 {
                     "option-label": "No",
                     "conection": "p7"
@@ -75,9 +75,9 @@
             ]
         },
         {
-            "question-id": "p7",
+            "id": "p7",
             "label": "¿Naciste con Magia?",
-            "options":[
+            "options": [
                 {
                     "option-label": "No",
                     "conection": "c2"
@@ -89,9 +89,9 @@
             ]
         },
         {
-            "question-id": "p8",
+            "id": "p8",
             "label": "¿Tienes interés por la música?",
-            "options":[
+            "options": [
                 {
                     "option-label": "Paso de música",
                     "conection": "p9"
@@ -103,9 +103,9 @@
             ]
         },
         {
-            "question-id": "p9",
+            "id": "p9",
             "label": "¿Te gustan los animales?",
-            "options":[
+            "options": [
                 {
                     "option-label": "Solo los mágicos",
                     "conection": "c4"
@@ -117,9 +117,9 @@
             ]
         },
         {
-            "question-id": "p10",
+            "id": "p10",
             "label": "¿Te gusta estar con animalitos",
-            "options":[
+            "options": [
                 {
                     "option-label": "Si",
                     "conection": "c6"
@@ -131,9 +131,9 @@
             ]
         },
         {
-            "question-id": "p11",
+            "id": "p11",
             "label": "¿Eres furtivo?",
-            "options":[
+            "options": [
                 {
                     "option-label": "No",
                     "conection": "p12"
@@ -145,9 +145,9 @@
             ]
         },
         {
-            "question-id": "p12",
+            "id": "p12",
             "label": "¿Que prefieres, magia o lucha?",
-            "options":[
+            "options": [
                 {
                     "option-label": "La Magia",
                     "conection": "c5"
@@ -159,9 +159,9 @@
             ]
         },
         {
-            "question-id": "p13",
+            "id": "p13",
             "label": "¿Quieres ser rico?",
-            "options":[
+            "options": [
                 {
                     "option-label": "Pues claro",
                     "conection": "c7"
@@ -173,9 +173,9 @@
             ]
         },
         {
-            "question-id": "p14",
+            "id": "p14",
             "label": "¿Eres social?",
-            "options":[
+            "options": [
                 {
                     "option-label": "Lo soy",
                     "conection": "p11"
@@ -187,9 +187,9 @@
             ]
         },
         {
-            "question-id": "p16",
+            "id": "p16",
             "label": "¿Peleas por una causa?",
-            "options":[
+            "options": [
                 {
                     "option-label": "Si",
                     "conection": "p15"
@@ -201,9 +201,9 @@
             ]
         },
         {
-            "question-id": "p15",
+            "id": "p15",
             "label": "¿Sabes artes marciales?",
-            "options":[
+            "options": [
                 {
                     "option-label": "Mis puños son armas letales",
                     "conection": "c9"
@@ -215,11 +215,11 @@
             ]
         },
         {
-            "question-id": "p17",
+            "id": "p17",
             "label": "¿Eres civil?",
-            "options":[
+            "options": [
                 {
-                    "option-label": "Cosmopolito total",
+                    "option-label": "Cosmopolita total",
                     "conection": "c11"
                 },
                 {
@@ -227,56 +227,55 @@
                     "conection": "c12"
                 }
             ]
-        }
-	],
-    "characters": [
-        {
-            "character-id": "c1",
-            "character-label": "Clérigo"
         },
         {
-            "character-id": "c2",
-            "character-label": "Brujo"
+            "id": "c1",
+            "label": "Clérigo"
         },
         {
-            "character-id": "c3",
-            "character-label": "Hechicero"
+            "id": "c2",
+            "label": "Brujo"
         },
         {
-            "character-id": "c4",
-            "character-label": "Mago"
+            "id": "c3",
+            "label": "Hechicero"
         },
         {
-            "character-id": "c5",
-            "character-label": "Bardo"
+            "id": "c4",
+            "label": "Mago"
         },
         {
-            "character-id": "c6",
-            "character-label": "Druida"
+            "id": "c5",
+            "label": "Bardo"
         },
         {
-            "character-id": "c7",
-            "character-label": "Pícaro"
+            "id": "c6",
+            "label": "Druida"
         },
         {
-            "character-id": "c8",
-            "character-label": "Ranger"
+            "id": "c7",
+            "label": "Pícaro"
         },
         {
-            "character-id": "c9",
-            "character-label": "Monje"
+            "id": "c8",
+            "label": "Ranger"
         },
         {
-            "character-id": "c10",
-            "character-label": "Paladín"
+            "id": "c9",
+            "label": "Monje"
         },
         {
-            "character-id": "c11",
-            "character-label": "Guerrero"
+            "id": "c10",
+            "label": "Paladín"
         },
         {
-            "character-id": "c120",
-            "character-label": "Bárbaro"
+            "id": "c11",
+            "label": "Guerrero"
+        },
+        {
+            "id": "c120",
+            "label": "Bárbaro"
         }
     ]
 }
+   

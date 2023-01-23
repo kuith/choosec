@@ -15,17 +15,28 @@
     });
     return result;
 };
+ */
 
-const videoById = (data, id) => {
-    const videosTotal = getVideos(data);
-    const result = videosTotal.filter((video) => video.id === id);
+
+
+const getQuestions = (data) => {
+    if (data === undefined) {
+        return ;
+    } else {
+        const dataResult = data.questions;
+        return dataResult;
+        
+    }
+}
+
+const getQuestionById = (data, id) => {
+    if(data === undefined) {return}
+    const allQuestions = getQuestions(data);
+    const result = allQuestions.find((question) => question.id === id);
     return result;
-}; */
-
-
-const getQuestions = (data) => data.questions
-
+}
 
 export const Selectors = {
-    getQuestions
+    getQuestions,
+    getQuestionById,
 };
