@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 import Character from './components/character';
 import Question from './components/question';
+import Intro from './components/intro';
 
 import { DataManager } from "./data-manager";
 import { Selectors } from './miners';
@@ -19,16 +20,25 @@ function App() {
       
     }, []);
   
-    useEffect(() => {
+    /* useEffect(() => {
         const initialQuestion = Selectors.getQuestionById(data, "p1");
         setQuestion(initialQuestion);
-    }, [data]);
+    }, [data]); */
   
-  return (
-    <div>
-      <Question question = {question} />
-    </div>
-  );
+  const introPage = (< Intro />);
+  const questionPage = (< Question />);
+
+  function showPage() {
+      if (question) {
+        return questionPage;
+      } else {
+        return introPage;
+      }
+    }
+
+  
+
+    return <> {showPage()}</>;
 }
 
 export default App;
