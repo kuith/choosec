@@ -24,9 +24,19 @@ function App() {
         const initialQuestion = Selectors.getQuestionById(data, "p1");
         setQuestion(initialQuestion);
     }, [data]); */
+
+  const onClickStart = () => {
+    const initialQuestion = Selectors.getQuestionById(data, "p1");
+    setQuestion(initialQuestion);
+  }
+
+  const onClickQuestion = (id) => {
+      const optionQuestion = Selectors.getQuestionById(data, id);
+      setQuestion(optionQuestion);
+  };
   
-  const introPage = (< Intro />);
-  const questionPage = (< Question />);
+  const introPage = <Intro onClick={onClickStart} />;
+  const questionPage = <Question question={question} onClick={onClickQuestion} />;
 
   function showPage() {
       if (question) {

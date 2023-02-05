@@ -1,19 +1,27 @@
 {   
+    "intro" : {
+        "label": "Descubre qué tipo de personaje eres !!!!",
+        "labelButton": "Empecemos"
+    },
 	"questions": [
+        {
+            "id": "p0",
+            "label": "Descubre qué tipo de personaje eres !!!!"
+        },
         {
             "id": "p1",
             "label": "¿Prefieres la Magia o romper cosas?",
             "options": [
                 {
-                    "option-label": " La Magia",
+                    "label": " La Magia",
                     "conection": "p2"
                 },
                 {
-                    "option-label": "Quiero ambas!!",
+                    "label": "Quiero ambas!!",
                     "conection": "p3"
                 },
                 {
-                    "option-label": "Yo rompo cosas",
+                    "label": "Yo rompo cosas",
                     "conection": "p4"
                 }
             ]
@@ -23,11 +31,11 @@
             "label": "¿Eres religioso?",
             "options": [
                 {
-                    "option-label": "Dios es mi guía",
+                    "label": "Dios es mi guía",
                     "conection": "c1"
                 },
                 {
-                    "option-label": "Pues no",
+                    "label": "Pues no",
                     "conection": "p6"
                 }
             ]
@@ -37,11 +45,11 @@
             "label": "¿Estás cómodo entre las personas?",
             "options": [
                 {
-                    "option-label": "Para nada",
+                    "label": "Para nada",
                     "conection": "p10"
                 },
                 {
-                    "option-label": "Si",
+                    "label": "Si",
                     "conection": "p11"
                 }
             ]
@@ -51,11 +59,11 @@
             "label": "¿Prefieres luchar a distancia o cuerpo a cuerpo?",
             "options": [
                 {
-                    "option-label": "Mejor a distancia",
+                    "label": "Mejor a distancia",
                     "conection": "p14"
                 },
                 {
-                    "option-label": "Prefiero de cerca",
+                    "label": "Prefiero de cerca",
                     "conection": "p16"
                 }
             ]
@@ -65,11 +73,11 @@
             "label": "¿Te gusta estudiar?",
             "options": [
                 {
-                    "option-label": "No",
+                    "label": "No",
                     "conection": "p7"
                 },
                 {
-                    "option-label": "Si, mucho",
+                    "label": "Si, mucho",
                     "conection": "p8"
                 }
             ]
@@ -79,11 +87,11 @@
             "label": "¿Naciste con Magia?",
             "options": [
                 {
-                    "option-label": "No",
+                    "label": "No",
                     "conection": "c2"
                 },
                 {
-                    "option-label": "S1",
+                    "label": "S1",
                     "conection": "c3"
                 }
             ]
@@ -93,11 +101,11 @@
             "label": "¿Tienes interés por la música?",
             "options": [
                 {
-                    "option-label": "Paso de música",
+                    "label": "Paso de música",
                     "conection": "p9"
                 },
                 {
-                    "option-label": "Me encanta",
+                    "label": "Me encanta",
                     "conection": "c5"
                 }
             ]
@@ -107,11 +115,11 @@
             "label": "¿Te gustan los animales?",
             "options": [
                 {
-                    "option-label": "Solo los mágicos",
+                    "label": "Solo los mágicos",
                     "conection": "c4"
                 },
                 {
-                    "option-label": "Claro, son muy bonitos",
+                    "label": "Claro, son muy bonitos",
                     "conection": "c6"
                 }
             ]
@@ -121,11 +129,11 @@
             "label": "¿Te gusta estar con animalitos",
             "options": [
                 {
-                    "option-label": "Si",
+                    "label": "Si",
                     "conection": "c6"
                 },
                 {
-                    "option-label": "Bueno, no están mal",
+                    "label": "Bueno, no están mal",
                     "conection": "p11"
                 }
             ]
@@ -135,11 +143,11 @@
             "label": "¿Eres furtivo?",
             "options": [
                 {
-                    "option-label": "No",
+                    "label": "No",
                     "conection": "p12"
                 },
                 {
-                    "option-label": "Si",
+                    "label": "Si",
                     "conection": "c7"
                 }
             ]
@@ -149,11 +157,11 @@
             "label": "¿Que prefieres, magia o lucha?",
             "options": [
                 {
-                    "option-label": "La Magia",
+                    "label": "La Magia",
                     "conection": "c5"
                 },
                 {
-                    "option-label": "Lucha, lucha",
+                    "label": "Lucha, lucha",
                     "conection": "p13"
                 }
             ]
@@ -163,11 +171,11 @@
             "label": "¿Quieres ser rico?",
             "options": [
                 {
-                    "option-label": "Pues claro",
+                    "label": "Pues claro",
                     "conection": "c7"
                 },
                 {
-                    "option-label": "Bah",
+                    "label": "Bah",
                     "conection": "p15"
                 }
             ]
@@ -177,11 +185,11 @@
             "label": "¿Eres social?",
             "options": [
                 {
-                    "option-label": "Lo soy",
+                    "label": "Lo soy",
                     "conection": "p11"
                 },
                 {
-                    "option-label": "No, prefiero a los animales",
+                    "label": "No, prefiero a los animales",
                     "conection": "c8"
                 }
             ]
@@ -191,11 +199,11 @@
             "label": "¿Peleas por una causa?",
             "options": [
                 {
-                    "option-label": "Si",
+                    "label": "Si",
                     "conection": "p15"
                 },
                 {
-                    "option-label": "El dinero es mi causa",
+                    "label": "El dinero es mi causa",
                     "conection": "p17"
                 }
             ]
@@ -205,11 +213,11 @@
             "label": "¿Sabes artes marciales?",
             "options": [
                 {
-                    "option-label": "Mis puños son armas letales",
+                    "label": "Mis puños son armas letales",
                     "conection": "c9"
                 },
                 {
-                    "option-label": "No se de que me hablas",
+                    "label": "No se de que me hablas",
                     "conection": "c10"
                 }
             ]
@@ -219,18 +227,18 @@
             "label": "¿Eres civil?",
             "options": [
                 {
-                    "option-label": "Cosmopolita total",
+                    "label": "Cosmopolita total",
                     "conection": "c11"
                 },
                 {
-                    "option-label": "No, nací en el campo",
+                    "label": "No, nací en el campo",
                     "conection": "c12"
                 }
             ]
         },
         {
             "id": "c1",
-            "label": "Clérigo"
+            "label": " Eres todo un Clérigo"
         },
         {
             "id": "c2",
